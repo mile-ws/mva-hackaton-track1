@@ -1,0 +1,43 @@
+# ---- Patient data and anything derived from it: NEVER commit ----
+mva_hackathon_salida/
+*.vcf
+*.vcf.gz
+*.vcf.bgz
+*.tbi
+*.csi
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.docx
+LOCAL_NO_COMPARTIR_*
+*_COMPARTIBLE.txt
+genes_barrido_*.txt
+reto_fenotipo_clinico.txt
+README.txt
+
+# Spreadsheets and tables (may contain variants or the patient's phenotype)
+*.xlsx
+*.xls
+*.csv
+*.tsv
+
+# Large public resources (download them again; record the date in README)
+clinvar*.vcf*
+*.gtf
+*.gtf.gz
+phenotype_to_genes.txt
+genes_to_phenotype.txt
+genes_ensembl_cache.json
+
+# Python / editors / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.spyproject/
+.DS_Store
+.env
