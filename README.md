@@ -1,6 +1,6 @@
 # MVA Hackathon 2026 — Track 1 (Variant Prediction)
 
-**Team:** EMBS Equipo C1 (Milena W, Catalina W)
+**Team:** EMBS Equipo C2 (Milena W, Catalina W)
 
 Pipeline used to propose the causal variant(s) for the proband in the
 *Rare Disease, Real Kid: MVA Hackathon 2026* (Sage Bionetworks, MVA Society, Hugging Face).
