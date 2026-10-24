@@ -1,5 +1,7 @@
 # ---- Patient data and anything derived from it: NEVER commit ----
 mva_hackathon_salida/
+salida_*/
+salida_*
 *.vcf
 *.vcf.gz
 *.vcf.bgz
