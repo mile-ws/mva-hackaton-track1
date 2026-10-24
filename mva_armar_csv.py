@@ -1,32 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Arma y valida el CSV de envío del Track 1, a partir de los Excel locales.
-
-Por qué así: las coordenadas de las variantes salen directo de los Excel que generaron
-los otros scripts, sin copiarlas a mano (evita errores de tipeo) y sin pasar por ningún chat.
-
-Cómo se usa:
-  1. Completá EQUIPO, MODELO y la lista FILAS de abajo (una entrada por fila del CSV).
-  2. F5 en Spyder (misma carpeta que los otros scripts).
-  3. El script arma el CSV, lo valida y te muestra las filas en la consola para revisarlas.
-     El CSV queda en la carpeta de salida. Ese archivo es lo que se sube al Space.
-
-Cada entrada de FILAS:
-  gen          : nombre del gen (como figura en el Excel)
-  epcr         : probabilidad estimada, en (0, 1]. Las filas se ordenan de mayor a menor.
-  finding_type : "primary" o "secondary"
-  notes        : una línea de justificación, sin detalles clínicos del paciente
-  fuente       : "candidatos" (LOCAL_NO_COMPARTIR_variantes_genes.xlsx, 8 genes de MVA)
-                 o "barrido"  (LOCAL_NO_COMPARTIR_barrido.xlsx, todo el genoma)
-  posiciones   : opcional. Lista de POS para elegir variantes cuando el gen tiene más
-                 de 2 candidatas. Se escribe acá, en tu compu; no se comparte.
-
-Reglas del Track 1 que se validan:
-  proband_id = PROBAND01, coordenadas GRCh38 con prefijo chr, una pareja por fila,
-  epcr en (0, 1], hasta 10 filas, ALT de un solo alelo, finding_type válido.
-"""
-
 import csv
 from pathlib import Path
 
