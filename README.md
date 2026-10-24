@@ -102,12 +102,12 @@ Run `python3 mva_cruce_hpo_genes.py --help` for all options.
 
 | Resource | Version | Accessed |
 | --- | --- | --- |
-| Ensembl REST API (gene/transcript coordinates) | GRCh38 | [DATE] |
-| ClinVar `vcf_GRCh38/clinvar.vcf.gz` | release [CLINVAR RELEASE DATE] | [DATE] |
-| GENCODE `gencode.v50.basic.annotation.gtf.gz` | v50 | [DATE] |
+| Ensembl REST API (gene/transcript coordinates) | GRCh38 | 2026-20-10 |
+| ClinVar `vcf_GRCh38/clinvar.vcf.gz` | release [CLINVAR RELEASE DATE] | 2026-20-10 |
+| GENCODE `gencode.v50.basic.annotation.gtf.gz` | v50 | 2026-20-10 |
 | HPO `phenotype_to_genes.txt` | — | 2026-10-20 |
 | gnomAD browser (manual annotation) | v4 | 2026-10-19 to 2026-10-21 |
-| OMIM / Orphanet (gene–disease relationships) | online | [DATE] |
+| OMIM / Orphanet (gene–disease relationships) | online | 2026-20-10 |
 
 ## Limitations
 
